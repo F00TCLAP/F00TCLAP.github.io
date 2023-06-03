@@ -1,1 +1,45 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #99ccff;
+      }
+      html, body {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        padding: 0px;
+        margin: 0px;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      #main {
+        border: 3px solid black;
+        border-radius: 10px;
+        width: 33%;
+        height: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffcc99;
+      }
+    </style>
+    <script>
+      function hello() {
+        alert("안녕하세요");
+      }
+    </script>
+  </head>
+  <body>
+    <div id="main" class="center box">
+      <h1>F00TCLAP의 블로그</h1>
+      <button onclick="hello()">안녕하세요</button>
+    </div>
+  </body>
+</html>
